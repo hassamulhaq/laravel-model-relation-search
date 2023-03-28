@@ -1,0 +1,44 @@
+{
+  "name": "hassamulhaq/laravel-model-relation-search",
+  "description": "Laravel package to search via your models and model relations.",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "illuminate/database": "^10.4",
+    "illuminate/support": "^10.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hassamulhaq\\LaravelModelRelationSearch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hassamulhaq\\LaravelModelRelationSearch\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HassamUlHaq\\LaravelModelRelationSearch\\ModelRelationSearch"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Hassam Ul Haq",
+      "email": "hello@hassam.dev",
+      "homepage": "https://hassam.dev/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "version": "0.0.1"
+}
