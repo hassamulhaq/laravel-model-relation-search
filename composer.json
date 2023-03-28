@@ -18,13 +18,6 @@
       "Hassamulhaq\\LaravelModelRelationSearch\\": "tests/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "HassamUlHaq\\LaravelModelRelationSearch\\ModelRelationSearch"
-      ]
-    }
-  },
   "authors": [
     {
       "role": "Developer",
